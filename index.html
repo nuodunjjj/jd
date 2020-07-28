@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/base.css">
     <!-- 引入自定义首页css -->
     <link rel="stylesheet" href="css/index.css">
+    <!-- 引入swipercss -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- 引入swiper的js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- 引入自定义js -->
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -40,7 +46,21 @@
     <div class="main_content">
         <!-- 滑动图 -->
         <div class="slider">
-            <img src="upload/banner.dpg" alt="">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="upload/banner.dpg" alt=""></div>
+                    <div class="swiper-slide"><img src="upload/banner1.dpg" alt=""></div>
+                    <div class="swiper-slide"><img src="upload/banner2.dpg" alt=""></div>
+                    <div class="swiper-slide"><img src="upload/banner3.dpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+            </div>
+
         </div>
         <!-- 品牌 -->
         <div class="brand">
